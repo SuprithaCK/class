@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.nav{
+    background-color:brown;
+}
+.logo{
+    color: whitesmoke;
+    padding: 10px 30px;
+    display: inline-block;
+}
+.logo:hover{
+    cursor: pointer;
+}
+.nav>ul{
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.nav>ul>li{
+    display: inline-block;
+    color: white;
+    padding: 15px 15px;
+
+    /* margin-top: 15px; */
+}
+.nav2{
+    box-sizing: border-box;
+    background-color: rgb(250, 248, 245);
+    box-shadow: 0px 0px 10px gray;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav2>p{
+    color: rgb(36, 35, 35);
+    padding: 18px;
+    font-size: 20px;
+}
+.nav2>p:hover{
+    border-bottom: 3px solid crimson;
+    color: brown;
+}
+.nav>ul>li:hover{
+    background-color: rgba(49, 37, 37, 0.397);
+}
+.content{
+    text-align: center;
+}
+.content>h1{
+    font-size: 50px;
+    margin:30px 0px;
+}
+.content>p{
+    font-size: 25px;
+    margin-bottom: 70px;
+}
+.poster1{
+    margin: 30px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.poster2{
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box1{
+    width: 300px;
+    height: 360px;
+    box-shadow: 0px 0px 10px black;
+    overflow: hidden;
+}
+.box1>img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.box1>p{
+    margin-top: 15px;
+    padding: 0px 10px;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: bold;
+}
+span{
+    color: brown;
+    padding: 0px 10px;
+    font-weight:bold;
+}
+.box1>img:hover{
+    transform: scale(1.05);
+}
+
+#b1{
+    padding: 18px 100px;
+    transform: translate(470px);
+    background:  #b1040e;
+    border: none;
+    font-size: 20px;
+    color: gainsboro;
+    margin: 10px 0px 50px 0px;
+}
+#b1:hover{
+    background-color: #700c11;
+}
+
+.box2{
+    width: 300px;
+    height: 500px;
+    box-shadow: 0px 0px 10px black;
+    overflow: hidden;
+}
+.box2>img{
+    transform: translatey(-70px);
+    width: 100%;
+    margin-bottom: 20px;
+}
+.box2>p{
+    margin-top: -50px;
+    padding: 0px 10px;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: bold;
+}
+span{
+    color: brown;
+    padding: 0px 10px;
+    font-weight:bold;
+}
+.box2>img:hover{
+    position: relative;
+    top: -70px;
+    transform: scale(1.05);
+}
+
+.date{
+    padding:10px 15px;
+    width: 45px;
+    background-color: rgb(32, 24, 24);
+    position: relative;
+    top: 260px;
+    left: 20px;
+    color: whitesmoke;
+    z-index: 1;
+}
